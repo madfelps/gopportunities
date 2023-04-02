@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+
 	"github.com/madfelps/gopportunities/config"
 	"github.com/madfelps/gopportunities/router"
 )
@@ -10,6 +12,8 @@ var (
 )
 
 func main() {
+
+	fmt.Println("ao")
 
 	logger = *config.GetLogger("main")
 
